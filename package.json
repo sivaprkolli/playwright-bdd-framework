@@ -1,0 +1,22 @@
+{
+  "name": "playwrightbddspec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bddgen": "npx bddgen",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1",
+    "playwright-bdd": "^7.5.0"
+  },
+  "dependencies": {
+    "ortoni-report": "^2.0.8"
+  }
+}
